@@ -1,0 +1,602 @@
+[
+    {
+        "manufacturer": "Manufacturer-1",
+        "model": "Model-1",
+        "hp": "5075",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-2",
+        "model": "Model-2",
+        "hp": "5150",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-3",
+        "model": "Model-3",
+        "hp": "5225",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-4",
+        "model": "Model-4",
+        "hp": "5300",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-5",
+        "model": "Model-5",
+        "hp": "5375",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-6",
+        "model": "Model-6",
+        "hp": "5450",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-7",
+        "model": "Model-7",
+        "hp": "5525",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-8",
+        "model": "Model-8",
+        "hp": "5600",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-9",
+        "model": "Model-9",
+        "hp": "5675",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-10",
+        "model": "Model-10",
+        "hp": "5750",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-11",
+        "model": "Model-11",
+        "hp": "5825",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-12",
+        "model": "Model-12",
+        "hp": "5900",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-13",
+        "model": "Model-13",
+        "hp": "5975",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-14",
+        "model": "Model-14",
+        "hp": "6050",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-15",
+        "model": "Model-15",
+        "hp": "6125",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-16",
+        "model": "Model-16",
+        "hp": "6200",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-17",
+        "model": "Model-17",
+        "hp": "6275",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-18",
+        "model": "Model-18",
+        "hp": "6350",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-19",
+        "model": "Model-19",
+        "hp": "6425",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-20",
+        "model": "Model-20",
+        "hp": "6500",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-21",
+        "model": "Model-21",
+        "hp": "6575",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-22",
+        "model": "Model-22",
+        "hp": "6650",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-23",
+        "model": "Model-23",
+        "hp": "6725",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-24",
+        "model": "Model-24",
+        "hp": "6800",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-25",
+        "model": "Model-25",
+        "hp": "6875",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-26",
+        "model": "Model-26",
+        "hp": "6950",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-27",
+        "model": "Model-27",
+        "hp": "7025",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-28",
+        "model": "Model-28",
+        "hp": "7100",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-29",
+        "model": "Model-29",
+        "hp": "7175",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-30",
+        "model": "Model-30",
+        "hp": "7250",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-31",
+        "model": "Model-31",
+        "hp": "7325",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-32",
+        "model": "Model-32",
+        "hp": "7400",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-33",
+        "model": "Model-33",
+        "hp": "7475",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-34",
+        "model": "Model-34",
+        "hp": "7550",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-35",
+        "model": "Model-35",
+        "hp": "7625",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-36",
+        "model": "Model-36",
+        "hp": "7700",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-37",
+        "model": "Model-37",
+        "hp": "7775",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-38",
+        "model": "Model-38",
+        "hp": "7850",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-39",
+        "model": "Model-39",
+        "hp": "7925",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-40",
+        "model": "Model-40",
+        "hp": "8000",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-41",
+        "model": "Model-41",
+        "hp": "8075",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-42",
+        "model": "Model-42",
+        "hp": "8150",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-43",
+        "model": "Model-43",
+        "hp": "8225",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-44",
+        "model": "Model-44",
+        "hp": "8300",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-45",
+        "model": "Model-45",
+        "hp": "8375",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-46",
+        "model": "Model-46",
+        "hp": "8450",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-47",
+        "model": "Model-47",
+        "hp": "8525",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-48",
+        "model": "Model-48",
+        "hp": "8600",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-49",
+        "model": "Model-49",
+        "hp": "8675",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-50",
+        "model": "Model-50",
+        "hp": "8750",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-51",
+        "model": "Model-51",
+        "hp": "8825",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-52",
+        "model": "Model-52",
+        "hp": "8900",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-53",
+        "model": "Model-53",
+        "hp": "8975",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-54",
+        "model": "Model-54",
+        "hp": "9050",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-55",
+        "model": "Model-55",
+        "hp": "9125",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-56",
+        "model": "Model-56",
+        "hp": "9200",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-57",
+        "model": "Model-57",
+        "hp": "9275",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-58",
+        "model": "Model-58",
+        "hp": "9350",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-59",
+        "model": "Model-59",
+        "hp": "9425",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-60",
+        "model": "Model-60",
+        "hp": "9500",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-61",
+        "model": "Model-61",
+        "hp": "9575",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-62",
+        "model": "Model-62",
+        "hp": "9650",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-63",
+        "model": "Model-63",
+        "hp": "9725",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-64",
+        "model": "Model-64",
+        "hp": "9800",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-65",
+        "model": "Model-65",
+        "hp": "9875",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-66",
+        "model": "Model-66",
+        "hp": "9950",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-67",
+        "model": "Model-67",
+        "hp": "10025",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-68",
+        "model": "Model-68",
+        "hp": "10100",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-69",
+        "model": "Model-69",
+        "hp": "10175",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-70",
+        "model": "Model-70",
+        "hp": "10250",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-71",
+        "model": "Model-71",
+        "hp": "10325",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-72",
+        "model": "Model-72",
+        "hp": "10400",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-73",
+        "model": "Model-73",
+        "hp": "10475",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-74",
+        "model": "Model-74",
+        "hp": "10550",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-75",
+        "model": "Model-75",
+        "hp": "10625",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-76",
+        "model": "Model-76",
+        "hp": "10700",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-77",
+        "model": "Model-77",
+        "hp": "10775",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-78",
+        "model": "Model-78",
+        "hp": "10850",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-79",
+        "model": "Model-79",
+        "hp": "10925",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-80",
+        "model": "Model-80",
+        "hp": "11000",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-81",
+        "model": "Model-81",
+        "hp": "11075",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-82",
+        "model": "Model-82",
+        "hp": "11150",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-83",
+        "model": "Model-83",
+        "hp": "11225",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-84",
+        "model": "Model-84",
+        "hp": "11300",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-85",
+        "model": "Model-85",
+        "hp": "11375",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-86",
+        "model": "Model-86",
+        "hp": "11450",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-87",
+        "model": "Model-87",
+        "hp": "11525",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-88",
+        "model": "Model-88",
+        "hp": "11600",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-89",
+        "model": "Model-89",
+        "hp": "11675",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-90",
+        "model": "Model-90",
+        "hp": "11750",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-91",
+        "model": "Model-91",
+        "hp": "11825",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-92",
+        "model": "Model-92",
+        "hp": "11900",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-93",
+        "model": "Model-93",
+        "hp": "11975",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-94",
+        "model": "Model-94",
+        "hp": "12050",
+        "rarity": "Legendary"
+    },
+    {
+        "manufacturer": "Manufacturer-95",
+        "model": "Model-95",
+        "hp": "12125",
+        "rarity": "Mythic"
+    },
+    {
+        "manufacturer": "Manufacturer-96",
+        "model": "Model-96",
+        "hp": "12200",
+        "rarity": "Common"
+    },
+    {
+        "manufacturer": "Manufacturer-97",
+        "model": "Model-97",
+        "hp": "12275",
+        "rarity": "Uncommon"
+    },
+    {
+        "manufacturer": "Manufacturer-98",
+        "model": "Model-98",
+        "hp": "12350",
+        "rarity": "Rare"
+    },
+    {
+        "manufacturer": "Manufacturer-99",
+        "model": "Model-99",
+        "hp": "12425",
+        "rarity": "Epic"
+    },
+    {
+        "manufacturer": "Manufacturer-100",
+        "model": "Model-100",
+        "hp": "12500",
+        "rarity": "Legendary"
+    }
+]

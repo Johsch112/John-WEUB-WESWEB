@@ -1,0 +1,602 @@
+[
+    {
+        "name": "Weapon-1",
+        "type": "Armor",
+        "hp": "1050",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-2",
+        "type": "Energy Rifle",
+        "hp": "1100",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-3",
+        "type": "Armor",
+        "hp": "1150",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-4",
+        "type": "Energy Rifle",
+        "hp": "1200",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-5",
+        "type": "Armor",
+        "hp": "1250",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-6",
+        "type": "Energy Rifle",
+        "hp": "1300",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-7",
+        "type": "Armor",
+        "hp": "1350",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-8",
+        "type": "Energy Rifle",
+        "hp": "1400",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-9",
+        "type": "Armor",
+        "hp": "1450",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-10",
+        "type": "Energy Rifle",
+        "hp": "1500",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-11",
+        "type": "Armor",
+        "hp": "1550",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-12",
+        "type": "Energy Rifle",
+        "hp": "1600",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-13",
+        "type": "Armor",
+        "hp": "1650",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-14",
+        "type": "Energy Rifle",
+        "hp": "1700",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-15",
+        "type": "Armor",
+        "hp": "1750",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-16",
+        "type": "Energy Rifle",
+        "hp": "1800",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-17",
+        "type": "Armor",
+        "hp": "1850",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-18",
+        "type": "Energy Rifle",
+        "hp": "1900",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-19",
+        "type": "Armor",
+        "hp": "1950",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-20",
+        "type": "Energy Rifle",
+        "hp": "2000",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-21",
+        "type": "Armor",
+        "hp": "2050",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-22",
+        "type": "Energy Rifle",
+        "hp": "2100",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-23",
+        "type": "Armor",
+        "hp": "2150",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-24",
+        "type": "Energy Rifle",
+        "hp": "2200",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-25",
+        "type": "Armor",
+        "hp": "2250",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-26",
+        "type": "Energy Rifle",
+        "hp": "2300",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-27",
+        "type": "Armor",
+        "hp": "2350",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-28",
+        "type": "Energy Rifle",
+        "hp": "2400",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-29",
+        "type": "Armor",
+        "hp": "2450",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-30",
+        "type": "Energy Rifle",
+        "hp": "2500",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-31",
+        "type": "Armor",
+        "hp": "2550",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-32",
+        "type": "Energy Rifle",
+        "hp": "2600",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-33",
+        "type": "Armor",
+        "hp": "2650",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-34",
+        "type": "Energy Rifle",
+        "hp": "2700",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-35",
+        "type": "Armor",
+        "hp": "2750",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-36",
+        "type": "Energy Rifle",
+        "hp": "2800",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-37",
+        "type": "Armor",
+        "hp": "2850",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-38",
+        "type": "Energy Rifle",
+        "hp": "2900",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-39",
+        "type": "Armor",
+        "hp": "2950",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-40",
+        "type": "Energy Rifle",
+        "hp": "3000",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-41",
+        "type": "Armor",
+        "hp": "3050",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-42",
+        "type": "Energy Rifle",
+        "hp": "3100",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-43",
+        "type": "Armor",
+        "hp": "3150",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-44",
+        "type": "Energy Rifle",
+        "hp": "3200",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-45",
+        "type": "Armor",
+        "hp": "3250",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-46",
+        "type": "Energy Rifle",
+        "hp": "3300",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-47",
+        "type": "Armor",
+        "hp": "3350",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-48",
+        "type": "Energy Rifle",
+        "hp": "3400",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-49",
+        "type": "Armor",
+        "hp": "3450",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-50",
+        "type": "Energy Rifle",
+        "hp": "3500",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-51",
+        "type": "Armor",
+        "hp": "3550",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-52",
+        "type": "Energy Rifle",
+        "hp": "3600",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-53",
+        "type": "Armor",
+        "hp": "3650",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-54",
+        "type": "Energy Rifle",
+        "hp": "3700",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-55",
+        "type": "Armor",
+        "hp": "3750",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-56",
+        "type": "Energy Rifle",
+        "hp": "3800",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-57",
+        "type": "Armor",
+        "hp": "3850",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-58",
+        "type": "Energy Rifle",
+        "hp": "3900",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-59",
+        "type": "Armor",
+        "hp": "3950",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-60",
+        "type": "Energy Rifle",
+        "hp": "4000",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-61",
+        "type": "Armor",
+        "hp": "4050",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-62",
+        "type": "Energy Rifle",
+        "hp": "4100",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-63",
+        "type": "Armor",
+        "hp": "4150",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-64",
+        "type": "Energy Rifle",
+        "hp": "4200",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-65",
+        "type": "Armor",
+        "hp": "4250",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-66",
+        "type": "Energy Rifle",
+        "hp": "4300",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-67",
+        "type": "Armor",
+        "hp": "4350",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-68",
+        "type": "Energy Rifle",
+        "hp": "4400",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-69",
+        "type": "Armor",
+        "hp": "4450",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-70",
+        "type": "Energy Rifle",
+        "hp": "4500",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-71",
+        "type": "Armor",
+        "hp": "4550",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-72",
+        "type": "Energy Rifle",
+        "hp": "4600",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-73",
+        "type": "Armor",
+        "hp": "4650",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-74",
+        "type": "Energy Rifle",
+        "hp": "4700",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-75",
+        "type": "Armor",
+        "hp": "4750",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-76",
+        "type": "Energy Rifle",
+        "hp": "4800",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-77",
+        "type": "Armor",
+        "hp": "4850",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-78",
+        "type": "Energy Rifle",
+        "hp": "4900",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-79",
+        "type": "Armor",
+        "hp": "4950",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-80",
+        "type": "Energy Rifle",
+        "hp": "5000",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-81",
+        "type": "Armor",
+        "hp": "5050",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-82",
+        "type": "Energy Rifle",
+        "hp": "5100",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-83",
+        "type": "Armor",
+        "hp": "5150",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-84",
+        "type": "Energy Rifle",
+        "hp": "5200",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-85",
+        "type": "Armor",
+        "hp": "5250",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-86",
+        "type": "Energy Rifle",
+        "hp": "5300",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-87",
+        "type": "Armor",
+        "hp": "5350",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-88",
+        "type": "Energy Rifle",
+        "hp": "5400",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-89",
+        "type": "Armor",
+        "hp": "5450",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-90",
+        "type": "Energy Rifle",
+        "hp": "5500",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-91",
+        "type": "Armor",
+        "hp": "5550",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-92",
+        "type": "Energy Rifle",
+        "hp": "5600",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-93",
+        "type": "Armor",
+        "hp": "5650",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-94",
+        "type": "Energy Rifle",
+        "hp": "5700",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Weapon-95",
+        "type": "Armor",
+        "hp": "5750",
+        "rarity": "Mythic"
+    },
+    {
+        "name": "Weapon-96",
+        "type": "Energy Rifle",
+        "hp": "5800",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weapon-97",
+        "type": "Armor",
+        "hp": "5850",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Weapon-98",
+        "type": "Energy Rifle",
+        "hp": "5900",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Weapon-99",
+        "type": "Armor",
+        "hp": "5950",
+        "rarity": "Epic"
+    },
+    {
+        "name": "Weapon-100",
+        "type": "Energy Rifle",
+        "hp": "6000",
+        "rarity": "Legendary"
+    }
+]
