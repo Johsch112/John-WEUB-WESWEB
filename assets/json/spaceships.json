@@ -1,601 +1,601 @@
 [
     {
-        "manufacturer": "Manufacturer-1",
-        "model": "Model-1",
+        "manufacturer": "Nebula Dynamics",
+        "model": "ND-X Specter",
         "hp": "5075",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-2",
-        "model": "Model-2",
+        "manufacturer": "Voidrunner Industries",
+        "model": "VR-7 Phantom",
         "hp": "5150",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-3",
-        "model": "Model-3",
+        "manufacturer": "Celestial Forge",
+        "model": "CF-9 Seraph",
         "hp": "5225",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-4",
-        "model": "Model-4",
+        "manufacturer": "Aetherion Technologies",
+        "model": "AT-Omega Sovereign",
         "hp": "5300",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-5",
-        "model": "Model-5",
+        "manufacturer": "Obsidian Starworks",
+        "model": "OS-5 Eclipse",
         "hp": "5375",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-6",
-        "model": "Model-6",
+        "manufacturer": "Ironclad Astronautics",
+        "model": "IA-3 Bastion",
         "hp": "5450",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-7",
-        "model": "Model-7",
+        "manufacturer": "Stellaris Shipyards",
+        "model": "SS-8 Aurora",
         "hp": "5525",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-8",
-        "model": "Model-8",
+        "manufacturer": "Zenith Aerospace",
+        "model": "ZA-12 Horizon",
         "hp": "5600",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-9",
-        "model": "Model-9",
+        "manufacturer": "Quantum Horizon",
+        "model": "QH-6 Rift",
         "hp": "5675",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-10",
-        "model": "Model-10",
+        "manufacturer": "Eclipse Engineering",
+        "model": "EE-9 Umbra",
         "hp": "5750",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-11",
-        "model": "Model-11",
+        "manufacturer": "Phoenix Propulsion Systems",
+        "model": "PPS-4 Ember",
         "hp": "5825",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-12",
-        "model": "Model-12",
+        "manufacturer": "Deep Space Foundry",
+        "model": "DSF-1 Nomad",
         "hp": "5900",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-13",
-        "model": "Model-13",
+        "manufacturer": "Orion Outfitters",
+        "model": "OO-7 Voyager",
         "hp": "5975",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-14",
-        "model": "Model-14",
+        "manufacturer": "Titan Forge",
+        "model": "TF-10 Colossus",
         "hp": "6050",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-15",
-        "model": "Model-15",
+        "manufacturer": "NovaCore Innovations",
+        "model": "NC-2 Supernova",
         "hp": "6125",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-16",
-        "model": "Model-16",
+        "manufacturer": "Riftborn Mechanics",
+        "model": "RM-11 Voidwalker",
         "hp": "6200",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-17",
-        "model": "Model-17",
+        "manufacturer": "Solaris Heavy Industries",
+        "model": "SHI-8 Helios",
         "hp": "6275",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-18",
-        "model": "Model-18",
+        "manufacturer": "Pioneer Spaceworks",
+        "model": "PS-5 Trailblazer",
         "hp": "6350",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-19",
-        "model": "Model-19",
+        "manufacturer": "Astral Dominion",
+        "model": "AD-3 Celestia",
         "hp": "6425",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-20",
-        "model": "Model-20",
+        "manufacturer": "Vortex Shipbuilding",
+        "model": "VS-9 Tempest",
         "hp": "6500",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-21",
-        "model": "Model-21",
+        "manufacturer": "Infinity Drive Yards",
+        "model": "IDY-7 Eternity",
         "hp": "6575",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-22",
-        "model": "Model-22",
+        "manufacturer": "Black Hole Engineering",
+        "model": "BHE-1 Singularity",
         "hp": "6650",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-23",
-        "model": "Model-23",
+        "manufacturer": "Cosmic Forge",
+        "model": "CF-12 Arcane",
         "hp": "6725",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-24",
-        "model": "Model-24",
+        "manufacturer": "Frontier Fabrications",
+        "model": "FF-4 Pathfinder",
         "hp": "6800",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-25",
-        "model": "Model-25",
+        "manufacturer": "Neon Nova Systems",
+        "model": "NNS-6 Pulsar",
         "hp": "6875",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-26",
-        "model": "Model-26",
+        "manufacturer": "Gravity Well Technologies",
+        "model": "GWT-5 Eventide",
         "hp": "6950",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-27",
-        "model": "Model-27",
+        "manufacturer": "Hyperion Dynamics",
+        "model": "HD-9 Icarus",
         "hp": "7025",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-28",
-        "model": "Model-28",
+        "manufacturer": "Chronos Aerospace",
+        "model": "CA-7 Timelock",
         "hp": "7100",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-29",
-        "model": "Model-29",
+        "manufacturer": "Elysium Shipworks",
+        "model": "ES-3 Paradigm",
         "hp": "7175",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-30",
-        "model": "Model-30",
+        "manufacturer": "Rustbelt Robotics",
+        "model": "RR-2 Scrapper",
         "hp": "7250",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-31",
-        "model": "Model-31",
+        "manufacturer": "Lunaris Foundry",
+        "model": "LF-8 Moonshadow",
         "hp": "7325",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-32",
-        "model": "Model-32",
+        "manufacturer": "Novaflare Propulsion",
+        "model": "NP-4 Starburst",
         "hp": "7400",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-33",
-        "model": "Model-33",
+        "manufacturer": "Voidhawk Syndicate",
+        "model": "VH-10 Nightshade",
         "hp": "7475",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-34",
-        "model": "Model-34",
+        "manufacturer": "Astraeus Collective",
+        "model": "AC-15 Odyssey",
         "hp": "7550",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-35",
-        "model": "Model-35",
+        "manufacturer": "Darkstar Innovations",
+        "model": "DS-6 Abyss",
         "hp": "7625",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-36",
-        "model": "Model-36",
+        "manufacturer": "Outrider Engineering",
+        "model": "OE-1 Drifter",
         "hp": "7700",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-37",
-        "model": "Model-37",
+        "manufacturer": "Celestial Mechanics",
+        "model": "CM-7 Zodiac",
         "hp": "7775",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-38",
-        "model": "Model-38",
+        "manufacturer": "Stormguard Shipyards",
+        "model": "SG-9 Thunderclap",
         "hp": "7850",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-39",
-        "model": "Model-39",
+        "manufacturer": "Ethereal Drive Systems",
+        "model": "EDS-5 Mirage",
         "hp": "7925",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-40",
-        "model": "Model-40",
+        "manufacturer": "Titanborn Armory",
+        "model": "TA-12 Behemoth",
         "hp": "8000",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-41",
-        "model": "Model-41",
+        "manufacturer": "Nebulon Robotics",
+        "model": "NR-8 Spectra",
         "hp": "8075",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-42",
-        "model": "Model-42",
+        "manufacturer": "Hullbreaker Industries",
+        "model": "HI-4 Ramjet",
         "hp": "8150",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-43",
-        "model": "Model-43",
+        "manufacturer": "Skyward Aeronautics",
+        "model": "SA-11 Skydancer",
         "hp": "8225",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-44",
-        "model": "Model-44",
+        "manufacturer": "Rustflare Fabrications",
+        "model": "RF-3 Burnscar",
         "hp": "8300",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-45",
-        "model": "Model-45",
+        "manufacturer": "Oblivion Technologies",
+        "model": "OT-13 Event Horizon",
         "hp": "8375",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-46",
-        "model": "Model-46",
+        "manufacturer": "Starfall Dynamics",
+        "model": "SD-7 Cometfall",
         "hp": "8450",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-47",
-        "model": "Model-47",
+        "manufacturer": "Doomsday Forge",
+        "model": "DF-9 Apocalypse",
         "hp": "8525",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-48",
-        "model": "Model-48",
+        "manufacturer": "Driftwood Salvage",
+        "model": "DW-2 Tideshift",
         "hp": "8600",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-49",
-        "model": "Model-49",
+        "manufacturer": "Astrobyte Systems",
+        "model": "AB-5 Quantumlink",
         "hp": "8675",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-50",
-        "model": "Model-50",
+        "manufacturer": "Frostburn Shipyards",
+        "model": "FB-8 Glacialis",
         "hp": "8750",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-51",
-        "model": "Model-51",
+        "manufacturer": "Neon Valkyrie",
+        "model": "NV-10 Valkyrie",
         "hp": "8825",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-52",
-        "model": "Model-52",
+        "manufacturer": "Eclipse Dominion",
+        "model": "ED-14 Penumbra",
         "hp": "8900",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-53",
-        "model": "Model-53",
+        "manufacturer": "Void Titan Armada",
+        "model": "VTA-1 Oblivion’s End",
         "hp": "8975",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-54",
-        "model": "Model-54",
+        "manufacturer": "Scrapheap Innovations",
+        "model": "SH-6 Junker",
         "hp": "9050",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-55",
-        "model": "Model-55",
+        "manufacturer": "Starborn Aeronautics",
+        "model": "SB-7 Astralis",
         "hp": "9125",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-56",
-        "model": "Model-56",
+        "manufacturer": "Ironflare Dynamics",
+        "model": "IF-9 Forgefire",
         "hp": "9200",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-57",
-        "model": "Model-57",
+        "manufacturer": "Nova Drift Corporation",
+        "model": "NDC-3 Lightweaver",
         "hp": "9275",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-58",
-        "model": "Model-58",
+        "manufacturer": "Celestial Vanguard",
+        "model": "CV-11 Archon",
         "hp": "9350",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-59",
-        "model": "Model-59",
+        "manufacturer": "Abyssal Shipworks",
+        "model": "AS-5 Depthcharge",
         "hp": "9425",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-60",
-        "model": "Model-60",
+        "manufacturer": "Rustwing Salvage",
+        "model": "RS-4 Dustrunner",
         "hp": "9500",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-61",
-        "model": "Model-61",
+        "manufacturer": "Skyforge Alliance",
+        "model": "SFA-8 Cloudbreaker",
         "hp": "9575",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-62",
-        "model": "Model-62",
+        "manufacturer": "Thunderbolt Engineering",
+        "model": "TE-6 Stormbringer",
         "hp": "9650",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-63",
-        "model": "Model-63",
+        "manufacturer": "Voidweaver Syndicate",
+        "model": "VW-13 Netherdart",
         "hp": "9725",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-64",
-        "model": "Model-64",
+        "manufacturer": "Solar Sovereign Collective",
+        "model": "SSC-10 Sunflare",
         "hp": "9800",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-65",
-        "model": "Model-65",
+        "manufacturer": "Neon Wraith Technologies",
+        "model": "NWT-7 Ghostlight",
         "hp": "9875",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-66",
-        "model": "Model-66",
+        "manufacturer": "Driftcore Mechanics",
+        "model": "DC-2 Wayfarer",
         "hp": "9950",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-67",
-        "model": "Model-67",
+        "manufacturer": "Astra Dynamics",
+        "model": "AD-9 Polaris",
         "hp": "10025",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-68",
-        "model": "Model-68",
+        "manufacturer": "Frostbite Fabrications",
+        "model": "FF-12 Permafrost",
         "hp": "10100",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-69",
-        "model": "Model-69",
+        "manufacturer": "Emberhawk Industries",
+        "model": "EH-5 Pyreclaw",
         "hp": "10175",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-70",
-        "model": "Model-70",
+        "manufacturer": "Starborne Armada",
+        "model": "SA-14 Celestial",
         "hp": "10250",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-71",
-        "model": "Model-71",
+        "manufacturer": "Duskwalker Shipyards",
+        "model": "DS-8 Twilight",
         "hp": "10325",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-72",
-        "model": "Model-72",
+        "manufacturer": "Scrapjack Salvage",
+        "model": "SJ-3 Ratchet",
         "hp": "10400",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-73",
-        "model": "Model-73",
+        "manufacturer": "Luminary Aerospace",
+        "model": "LA-7 Radiance",
         "hp": "10475",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-74",
-        "model": "Model-74",
+        "manufacturer": "Stormrider Technologies",
+        "model": "SR-10 Cyclone",
         "hp": "10550",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-75",
-        "model": "Model-75",
+        "manufacturer": "Nova Phantom Systems",
+        "model": "NPS-4 Wraith",
         "hp": "10625",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-76",
-        "model": "Model-76",
+        "manufacturer": "Eclipse Vanguard",
+        "model": "EV-15 Duskbringer",
         "hp": "10700",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-77",
-        "model": "Model-77",
+        "manufacturer": "Voidmaw Fabrications",
+        "model": "VM-6 Devourer",
         "hp": "10775",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-78",
-        "model": "Model-78",
+        "manufacturer": "Driftmark Salvage",
+        "model": "DM-1 Wanderer",
         "hp": "10850",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-79",
-        "model": "Model-79",
+        "manufacturer": "Astralis Propulsion",
+        "model": "AP-9 Starweaver",
         "hp": "10925",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-80",
-        "model": "Model-80",
+        "manufacturer": "Thundershock Industries",
+        "model": "TS-7 Voltfang",
         "hp": "11000",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-81",
-        "model": "Model-81",
+        "manufacturer": "Nebula Wraithworks",
+        "model": "NW-11 Phantom",
         "hp": "11075",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-82",
-        "model": "Model-82",
+        "manufacturer": "Solarflare Dominion",
+        "model": "SFD-13 Dawnbreaker",
         "hp": "11150",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-83",
-        "model": "Model-83",
+        "manufacturer": "Abyssal Maw Mechanics",
+        "model": "AM-8 Leviathan",
         "hp": "11225",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-84",
-        "model": "Model-84",
+        "manufacturer": "Rustveil Salvage",
+        "model": "RV-4 Patina",
         "hp": "11300",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-85",
-        "model": "Model-85",
+        "manufacturer": "Starbright Aeronautics",
+        "model": "SBA-6 Luminos",
         "hp": "11375",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-86",
-        "model": "Model-86",
+        "manufacturer": "Frostveil Shipyards",
+        "model": "FV-9 Rimefrost",
         "hp": "11450",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-87",
-        "model": "Model-87",
+        "manufacturer": "Voidseeker Innovations",
+        "model": "VS-12 Etherstrider",
         "hp": "11525",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-88",
-        "model": "Model-88",
+        "manufacturer": "Eclipsed Sun Collective",
+        "model": "ESC-16 Umbralis",
         "hp": "11600",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-89",
-        "model": "Model-89",
+        "manufacturer": "Doomgaze Forge",
+        "model": "DG-7 Harbinger",
         "hp": "11675",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-90",
-        "model": "Model-90",
+        "manufacturer": "Driftthorn Salvage",
+        "model": "DT-5 Bramble",
         "hp": "11750",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-91",
-        "model": "Model-91",
+        "manufacturer": "Skyphantom Dynamics",
+        "model": "SPD-8 Mirage",
         "hp": "11825",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-92",
-        "model": "Model-92",
+        "manufacturer": "Stormveil Engineering",
+        "model": "SVE-10 Thunderhead",
         "hp": "11900",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-93",
-        "model": "Model-93",
+        "manufacturer": "Nova Wraithworks",
+        "model": "NW-14 Specter",
         "hp": "11975",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-94",
-        "model": "Model-94",
+        "manufacturer": "Celestial Maw Armada",
+        "model": "CMA-17 Titan’s Bite",
         "hp": "12050",
         "rarity": "Legendary"
     },
     {
-        "manufacturer": "Manufacturer-95",
-        "model": "Model-95",
+        "manufacturer": "Voidflare Technologies",
+        "model": "VFT-9 Oblivion",
         "hp": "12125",
         "rarity": "Mythic"
     },
     {
-        "manufacturer": "Manufacturer-96",
-        "model": "Model-96",
+        "manufacturer": "Scrapveil Salvage",
+        "model": "SV-6 Rusthowl",
         "hp": "12200",
         "rarity": "Common"
     },
     {
-        "manufacturer": "Manufacturer-97",
-        "model": "Model-97",
+        "manufacturer": "Astralforge Propulsion",
+        "model": "AFP-7 Starfall",
         "hp": "12275",
         "rarity": "Uncommon"
     },
     {
-        "manufacturer": "Manufacturer-98",
-        "model": "Model-98",
+        "manufacturer": "Frostshock Industries",
+        "model": "FSI-11 Blizzard",
         "hp": "12350",
         "rarity": "Rare"
     },
     {
-        "manufacturer": "Manufacturer-99",
-        "model": "Model-99",
+        "manufacturer": "Emberveil Shipyards",
+        "model": "EVS-13 Cinder",
         "hp": "12425",
         "rarity": "Epic"
     },
     {
-        "manufacturer": "Manufacturer-100",
-        "model": "Model-100",
+        "manufacturer": "Solaris Vanguard",
+        "model": "SV-18 Solstice",
         "hp": "12500",
         "rarity": "Legendary"
     }

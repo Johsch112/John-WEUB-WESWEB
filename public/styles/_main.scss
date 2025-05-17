@@ -1,42 +1,57 @@
-
-
-@font-face {
-    font-family: ITCFont;
-    src: url('../assets/font/ITCFont.otf');
-  }
-
-  @font-face {
-    font-family: Gilroy;
-    src: url('../assets/font/Gilroy.ttf');
-  }
-
-  @font-face {
-    font-family: Futura;
-    src: url('../assets/font/Futura.ttf');
-  }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-h1, h2, h3, p, a, label, button{
-    // font-family: ITCFont;
+    font-family: ITCFont;
     // font-family: Gilroy;
+    // font-family: Futura;
+}
+
+body {
+    background-color: $mainbackground;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    color: $darkgold;
+}
+
+h2,
+h3,
+label,
+p {
+    color: $bluetext;
+}
+
+h4 {
+    color: $golden;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: ITCFont;
+    src: url('../assets/font/ITCFont.otf');
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url('../assets/font/Gilroy.ttf');
+}
+
+@font-face {
     font-family: Futura;
+    src: url('../assets/font/Futura.ttf');
 }
-
-h1{
-    color:  $darkgold;
-}
-
 
 header {
 
     nav {
-
         background-color: $mainbackground;
 
         ul {
@@ -59,50 +74,153 @@ header {
             transition: all ease 0.5s;
 
             &:hover {
-                transform: scale(1.1) rotateY(360deg);
+                transform: scale(1.1);
                 color: $golden;
             }
         }
     }
 }
 
-.hero-wrapper{
-    background-color:$mainbackground;
+.hero-wrapper {
+    background-image: linear-gradient(to right, #22242F, #323e82);
     display: flex;
     flex-direction: column;
     align-items: center;
-    .hero{
+}
 
+#cooldesign{
+    height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #22242F, #323e82);
+}
+
+
+
+.triangles-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        transform-origin: center;
+        top: 50%;
+        left: 50%;
+        // border: 1px solid red;
+    }
+
+    overflow: hidden;
+
+    .triangle {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 86.6px solid red;
+        transform-origin: center center;
+        /* ≈ 50 * sqrt(3) for equilateral */
     }
 }
 
-.spacemaker{
-    background-color: $bluetext;
-    height:40vh;
+.spacemaker {
+    height: 30vh;
 }
 
-.search-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-
-    .searchbox{
+.search-wrapper {
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    #searcher {
         display: flex;
         flex-direction: column;
-        input{
+        justify-content: center;
+        align-items: center;
+
+        //Searchbox
+        #search {
+            margin-top: 3rem;
+            background-color: $mainbackground;
             padding: 0.5rem;
             font-size: 6rem;
             text-align: center;
-            
+            border-radius: 70px;
+            border: $standardborder;
+            margin-bottom: 1rem;
+            width: 100%;
+            color: $bluetext;
         }
 
-        #text{
-            font-size: 1.5rem;
-            color: $golden;
+        //Style for the knobs
+        #vehicle,
+        #items,
+        #all {
+            font-size: 6rem;
         }
 
+        //Style for Labels
+        #vehiclelabel,
+        #alllabel,
+        #itemslabel {
+            font-size: 4rem;
+        }
     }
 
+
+    display: flex;
+
+    #searchdisplaybox {
+        display: none;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        border-radius: 10px;
+        border: $standardborder;
+        transition: all ease 0.5s;
+        margin-top: 3rem;
+
+        text {
+            color: $bluetext;
+            font-size: 2rem;
+            padding: 1rem;
+        }
+
+        h3 {
+            text-align: center;
+            padding: 1rem;
+            font-size: 2rem;
+            transition: all ease 0.5s;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 672px) {
+    h4 {
+        font-size: 3rem;
+    }
+
+    #search {&::placeholder {font-size: 3rem;}
+}
+
+    .searchbox {
+        input {
+            font-size: 6rem;
+        }
+    }
 }

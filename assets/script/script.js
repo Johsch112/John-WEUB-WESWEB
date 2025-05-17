@@ -1,36 +1,69 @@
-const SearchBoxData = document.getElementsByClassName('datawrapper')[0];
+window.addEventListener("DOMContentLoaded", () => {
+const searchInput = document.querySelector("[data-search]");
+const DisplayBox = document.getElementById("searchdisplaybox");
+// const triangle = document.querySelector(".tri1");
 
-console.log(SearchBoxData.innerText);
+let firstSearch = true; 
+searchInput.addEventListener("input", async () => {
+    const value = searchInput.value.toLowerCase();
+    const searchBoxData = document.querySelector('.datawrapper');
+    if (firstSearch && value.length >= 3) {
+        // triangle.style.animation = "spin 3s infinite linear";
+    
+        firstSearch = false;
+    } else if (!firstSearch && value.length < 3) { 
+        // triangle.style.animation = "";
+        DisplayBox.innerHTML = "";
+        firstSearch = true;
+    }
+    
+    if (value.length >= 3) {
+
+        console.log(value)
+        let res = await fetch('http://localhost:8080/john-weub-wesweb/public/search.php?q=' + value);
+        let data = await res.text();
+        console.log(data);
+        
+        const items = data.toLowerCase().split("\n");
+        const filteredItems = items.filter(item => item.includes(value));
+        console.log(filteredItems);
+           if (filteredItems.length === 0 || value === "") {
+        DisplayBox.style.display = "none";
+        return; 
+    }else {
+        DisplayBox.style.display = "flex";
+    }
 
 
-////--------------------------------Bottom copied and pasted please fix!!!1!!-----------------------------------------------
 
-const userCardTemplate = document.querySelector("[data-user-template]")
-const userCardContainer = document.querySelector("[data-user-cards-container]")
-const searchInput = document.querySelector("[data-search]")
+     DisplayBox.innerHTML = filteredItems
 
-let users = []
 
-searchInput.addEventListener("input", e => {
-  const value = e.target.value.toLowerCase()
-  users.forEach(user => {
-    const isVisible =
-      user.name.toLowerCase().includes(value) ||
-      user.email.toLowerCase().includes(value)
-    user.element.classList.toggle("hide", !isVisible)
-  })
-})
+// DisplayBox.innerHTML="<h4>" + data + "</h4>"; 
+    }
 
-fetch("https://jsonplaceholder.typicode.com/users")
-  .then(res => res.json())
-  .then(data => {
-    users = data.map(user => {
-      const card = userCardTemplate.content.cloneNode(true).children[0]
-      const header = card.querySelector("[data-header]")
-      const body = card.querySelector("[data-body]")
-      header.textContent = user.name
-      body.textContent = user.email
-      userCardContainer.append(card)
-      return { name: user.name, email: user.email, element: card }
-    })
-  })
+    // if (filteredItems.length === 0 || value === "") {
+    //     DisplayBox.style.display = "none";
+    //     return; 
+    // }else {
+    //     DisplayBox.style.display = "flex";
+    // }
+
+
+
+    //  DisplayBox.innerHTML = filteredItems
+    //  .map(item => {
+    //      const formattedURL = item.replace(/ /g, "/"); // Replace spaces with slashes
+    //      return `<a href="/${formattedURL}" target="_blank">${item}</a><br>`;
+    //  })
+    //  .join("");
+ 
+
+
+
+    //  console.log(ItemURL);
+    //  BYT UT BLANKSTEG MOT /   str.replace(/ /g, "/")
+     
+
+});
+});

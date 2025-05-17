@@ -1,602 +1,608 @@
 [
     {
-        "name": "Weapon-1",
-        "type": "Armor",
-        "hp": "1050",
+        "name": "ND-X Specter",
+        "type": "Blaster",
+        "hp": 5075,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-2",
-        "type": "Energy Rifle",
-        "hp": "1100",
+        "name": "VR-7 Phantom",
+        "type": "Laser Cannon",
+        "hp": 5150,
         "rarity": "Rare"
     },
     {
-        "name": "Weapon-3",
-        "type": "Armor",
-        "hp": "1150",
+        "name": "CF-9 Seraph",
+        "type": "Plasma Gun",
+        "hp": 5225,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-4",
-        "type": "Energy Rifle",
-        "hp": "1200",
+        "name": "AT-Omega Sovereign",
+        "type": "Railgun",
+        "hp": 5300,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-5",
-        "type": "Armor",
-        "hp": "1250",
+        "name": "OS-5 Eclipse",
+        "type": "Missile Launcher",
+        "hp": 5375,
         "rarity": "Mythic"
     },
     {
-        "name": "Weapon-6",
-        "type": "Energy Rifle",
-        "hp": "1300",
+        "name": "IA-3 Bastion",
+        "type": "Shotgun",
+        "hp": 5450,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-7",
-        "type": "Armor",
-        "hp": "1350",
+        "name": "SS-8 Aurora",
+        "type": "Pulse Laser",
+        "hp": 5525,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-8",
-        "type": "Energy Rifle",
-        "hp": "1400",
+        "name": "ZA-12 Horizon",
+        "type": "Beam Rifle",
+        "hp": 5600,
         "rarity": "Rare"
     },
     {
-        "name": "Weapon-9",
-        "type": "Armor",
-        "hp": "1450",
+        "name": "QH-6 Rift",
+        "type": "Disruptor Cannon",
+        "hp": 5675,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-10",
-        "type": "Energy Rifle",
-        "hp": "1500",
+        "name": "EE-9 Umbra",
+        "type": "Flak Cannon",
+        "hp": 5750,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-11",
-        "type": "Armor",
-        "hp": "1550",
+        "name": "PPS-4 Ember",
+        "type": "Flame Thrower",
+        "hp": 5825,
         "rarity": "Mythic"
     },
     {
-        "name": "Weapon-12",
-        "type": "Energy Rifle",
-        "hp": "1600",
+        "name": "DSF-1 Nomad",
+        "type": "Sniper Rifle",
+        "hp": 5900,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-13",
-        "type": "Armor",
-        "hp": "1650",
+        "name": "OO-7 Voyager",
+        "type": "Energy Pistol",
+        "hp": 5975,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-14",
-        "type": "Energy Rifle",
-        "hp": "1700",
+        "name": "TF-10 Colossus",
+        "type": "Heavy Machine Gun",
+        "hp": 6050,
         "rarity": "Rare"
     },
     {
-        "name": "Weapon-15",
-        "type": "Armor",
-        "hp": "1750",
+        "name": "NC-2 Supernova",
+        "type": "Rocket Launcher",
+        "hp": 6125,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-16",
-        "type": "Energy Rifle",
-        "hp": "1800",
+        "name": "RM-11 Voidwalker",
+        "type": "Gravity Gun",
+        "hp": 6200,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-17",
-        "type": "Armor",
-        "hp": "1850",
+        "name": "SHI-8 Helios",
+        "type": "Plasma Cannon",
+        "hp": 6275,
         "rarity": "Mythic"
     },
     {
-        "name": "Weapon-18",
-        "type": "Energy Rifle",
-        "hp": "1900",
+        "name": "PS-5 Trailblazer",
+        "type": "Laser Sword",
+        "hp": 6350,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-19",
-        "type": "Armor",
-        "hp": "1950",
+        "name": "AD-3 Celestia",
+        "type": "Particle Beam",
+        "hp": 6425,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-20",
-        "type": "Energy Rifle",
-        "hp": "2000",
+        "name": "VS-9 Tempest",
+        "type": "Electromagnetic Pulse (EMP)",
+        "hp": 6500,
         "rarity": "Rare"
     },
     {
-        "name": "Weapon-21",
-        "type": "Armor",
-        "hp": "2050",
+        "name": "IDY-7 Eternity",
+        "type": "Torpedo",
+        "hp": 6575,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-22",
-        "type": "Energy Rifle",
-        "hp": "2100",
+        "name": "BHE-1 Singularity",
+        "type": "Black Hole Cannon",
+        "hp": 6650,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-23",
-        "type": "Armor",
-        "hp": "2150",
+        "name": "CF-12 Arcane",
+        "type": "Antimatter Gun",
+        "hp": 6725,
         "rarity": "Mythic"
     },
     {
-        "name": "Weapon-24",
-        "type": "Energy Rifle",
-        "hp": "2200",
+        "name": "FF-4 Pathfinder",
+        "type": "Grenade Launcher",
+        "hp": 6800,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-25",
-        "type": "Armor",
-        "hp": "2250",
+        "name": "NNS-6 Pulsar",
+        "type": "Plasma Blaster",
+        "hp": 6875,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-26",
-        "type": "Energy Rifle",
-        "hp": "2300",
+        "name": "GWT-5 Eventide",
+        "type": "Gravity Cannon",
+        "hp": 6950,
         "rarity": "Rare"
     },
     {
-        "name": "Weapon-27",
-        "type": "Armor",
-        "hp": "2350",
+        "name": "HD-9 Icarus",
+        "type": "Laser Cutter",
+        "hp": 7025,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-28",
-        "type": "Energy Rifle",
-        "hp": "2400",
-        "rarity": "Legendary"
-    },
-    {
-        "name": "Weapon-29",
-        "type": "Armor",
-        "hp": "2450",
-        "rarity": "Mythic"
-    },
-    {
-        "name": "Weapon-30",
-        "type": "Energy Rifle",
-        "hp": "2500",
+        "name": "Laser Blaster",
+        "type": "Laser",
+        "hp": 25,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-31",
-        "type": "Armor",
-        "hp": "2550",
+        "name": "Plasma Rifle",
+        "type": "Plasma",
+        "hp": 30,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-32",
-        "type": "Energy Rifle",
-        "hp": "2600",
+        "name": "Ion Cannon",
+        "type": "Energy",
+        "hp": 50,
         "rarity": "Rare"
     },
     {
-        "name": "Weapon-33",
-        "type": "Armor",
-        "hp": "2650",
-        "rarity": "Epic"
-    },
-    {
-        "name": "Weapon-34",
-        "type": "Energy Rifle",
-        "hp": "2700",
-        "rarity": "Legendary"
-    },
-    {
-        "name": "Weapon-35",
-        "type": "Armor",
-        "hp": "2750",
-        "rarity": "Mythic"
-    },
-    {
-        "name": "Weapon-36",
-        "type": "Energy Rifle",
-        "hp": "2800",
+        "name": "Photon Pistol",
+        "type": "Laser",
+        "hp": 15,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-37",
-        "type": "Armor",
-        "hp": "2850",
+        "name": "Gauss Gun",
+        "type": "Projectile",
+        "hp": 20,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-38",
-        "type": "Energy Rifle",
-        "hp": "2900",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Weapon-39",
-        "type": "Armor",
-        "hp": "2950",
+        "name": "Gravity Hammer",
+        "type": "Melee",
+        "hp": 40,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-40",
-        "type": "Energy Rifle",
-        "hp": "3000",
+        "name": "Tesla Coil",
+        "type": "Energy",
+        "hp": 35,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Plasma Shotgun",
+        "type": "Plasma",
+        "hp": 45,
+        "rarity": "Epic"
+    },
+    {
+        "name": "Laser Sniper",
+        "type": "Laser",
+        "hp": 60,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-41",
-        "type": "Armor",
-        "hp": "3050",
-        "rarity": "Mythic"
+        "name": "Rocket Launcher",
+        "type": "Projectile",
+        "hp": 80,
+        "rarity": "Epic"
     },
     {
-        "name": "Weapon-42",
-        "type": "Energy Rifle",
-        "hp": "3100",
+        "name": "Electromagnetic Pulse",
+        "type": "Energy",
+        "hp": 50,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Fusion Rifle",
+        "type": "Plasma",
+        "hp": 65,
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Shuriken Thrower",
+        "type": "Melee",
+        "hp": 20,
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Acid Spitter",
+        "type": "Chemical",
+        "hp": 30,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Light Saber",
+        "type": "Melee",
+        "hp": 70,
+        "rarity": "Epic"
+    },
+    {
+        "name": "EMP Grenade",
+        "type": "Energy",
+        "hp": 10,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-43",
-        "type": "Armor",
-        "hp": "3150",
+        "name": "Arc Thrower",
+        "type": "Energy",
+        "hp": 25,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-44",
-        "type": "Energy Rifle",
-        "hp": "3200",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Weapon-45",
-        "type": "Armor",
-        "hp": "3250",
-        "rarity": "Epic"
-    },
-    {
-        "name": "Weapon-46",
-        "type": "Energy Rifle",
-        "hp": "3300",
+        "name": "Thermal Lance",
+        "type": "Laser",
+        "hp": 55,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-47",
-        "type": "Armor",
-        "hp": "3350",
-        "rarity": "Mythic"
+        "name": "Plasma Grenade",
+        "type": "Plasma",
+        "hp": 35,
+        "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-48",
-        "type": "Energy Rifle",
-        "hp": "3400",
+        "name": "Flame Thrower",
+        "type": "Chemical",
+        "hp": 40,
+        "rarity": "Epic"
+    },
+    {
+        "name": "Frost Rifle",
+        "type": "Energy",
+        "hp": 30,
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Vortex Cannon",
+        "type": "Energy",
+        "hp": 60,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Nuclear Warhead",
+        "type": "Projectile",
+        "hp": 100,
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Bolt Pistol",
+        "type": "Projectile",
+        "hp": 20,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-49",
-        "type": "Armor",
-        "hp": "3450",
-        "rarity": "Uncommon"
-    },
-    {
-        "name": "Weapon-50",
-        "type": "Energy Rifle",
-        "hp": "3500",
+        "name": "Void Blade",
+        "type": "Melee",
+        "hp": 45,
         "rarity": "Rare"
     },
     {
-        "name": "Weapon-51",
-        "type": "Armor",
-        "hp": "3550",
+        "name": "Shock Rifle",
+        "type": "Energy",
+        "hp": 50,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-52",
-        "type": "Energy Rifle",
-        "hp": "3600",
-        "rarity": "Legendary"
+        "name": "Disruptor Beam",
+        "type": "Laser",
+        "hp": 35,
+        "rarity": "Rare"
     },
     {
-        "name": "Weapon-53",
-        "type": "Armor",
-        "hp": "3650",
-        "rarity": "Mythic"
-    },
-    {
-        "name": "Weapon-54",
-        "type": "Energy Rifle",
-        "hp": "3700",
+        "name": "Photon Grenade",
+        "type": "Plasma",
+        "hp": 15,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-55",
-        "type": "Armor",
-        "hp": "3750",
-        "rarity": "Uncommon"
-    },
-    {
-        "name": "Weapon-56",
-        "type": "Energy Rifle",
-        "hp": "3800",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Weapon-57",
-        "type": "Armor",
-        "hp": "3850",
-        "rarity": "Epic"
-    },
-    {
-        "name": "Weapon-58",
-        "type": "Energy Rifle",
-        "hp": "3900",
+        "name": "Fission Cannon",
+        "type": "Energy",
+        "hp": 70,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-59",
-        "type": "Armor",
-        "hp": "3950",
-        "rarity": "Mythic"
+        "name": "Pulse Rifle",
+        "type": "Plasma",
+        "hp": 40,
+        "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-60",
-        "type": "Energy Rifle",
-        "hp": "4000",
+        "name": "Magnetic Accelerator",
+        "type": "Projectile",
+        "hp": 55,
+        "rarity": "Epic"
+    },
+    {
+        "name": "Neutron Grenade",
+        "type": "Energy",
+        "hp": 30,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Pulse Cannon",
+        "type": "Energy",
+        "hp": 45,
+        "rarity": "Epic"
+    },
+    {
+        "name": "Neutron Blaster",
+        "type": "Plasma",
+        "hp": 60,
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Sonic Rifle",
+        "type": "Energy",
+        "hp": 35,
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Graviton Gun",
+        "type": "Energy",
+        "hp": 25,
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Toxic Blaster",
+        "type": "Chemical",
+        "hp": 50,
+        "rarity": "Epic"
+    },
+    {
+        "name": "EMP Shotgun",
+        "type": "Energy",
+        "hp": 30,
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Cryo Pistol",
+        "type": "Energy",
+        "hp": 15,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-61",
-        "type": "Armor",
-        "hp": "4050",
+        "name": "Plasma Caster",
+        "type": "Plasma",
+        "hp": 40,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-62",
-        "type": "Energy Rifle",
-        "hp": "4100",
+        "name": "Wraith Blade",
+        "type": "Melee",
+        "hp": 55,
         "rarity": "Rare"
     },
     {
-        "name": "Weapon-63",
-        "type": "Armor",
-        "hp": "4150",
-        "rarity": "Epic"
-    },
-    {
-        "name": "Weapon-64",
-        "type": "Energy Rifle",
-        "hp": "4200",
+        "name": "Quantum Sniper",
+        "type": "Energy",
+        "hp": 70,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-65",
-        "type": "Armor",
-        "hp": "4250",
-        "rarity": "Mythic"
+        "name": "Hydraulic Hammer",
+        "type": "Melee",
+        "hp": 50,
+        "rarity": "Epic"
     },
     {
-        "name": "Weapon-66",
-        "type": "Energy Rifle",
-        "hp": "4300",
+        "name": "Blight Gun",
+        "type": "Chemical",
+        "hp": 25,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-67",
-        "type": "Armor",
-        "hp": "4350",
-        "rarity": "Uncommon"
-    },
-    {
-        "name": "Weapon-68",
-        "type": "Energy Rifle",
-        "hp": "4400",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Weapon-69",
-        "type": "Armor",
-        "hp": "4450",
+        "name": "Pulse Shotgun",
+        "type": "Energy",
+        "hp": 45,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-70",
-        "type": "Energy Rifle",
-        "hp": "4500",
+        "name": "Hyper Beam",
+        "type": "Energy",
+        "hp": 60,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-71",
-        "type": "Armor",
-        "hp": "4550",
-        "rarity": "Mythic"
+        "name": "Plasma Launcher",
+        "type": "Plasma",
+        "hp": 55,
+        "rarity": "Epic"
     },
     {
-        "name": "Weapon-72",
-        "type": "Energy Rifle",
-        "hp": "4600",
+        "name": "Ion Blaster",
+        "type": "Energy",
+        "hp": 35,
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Disruptor Pistol",
+        "type": "Energy",
+        "hp": 25,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-73",
-        "type": "Armor",
-        "hp": "4650",
-        "rarity": "Uncommon"
-    },
-    {
-        "name": "Weapon-74",
-        "type": "Energy Rifle",
-        "hp": "4700",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Weapon-75",
-        "type": "Armor",
-        "hp": "4750",
-        "rarity": "Epic"
-    },
-    {
-        "name": "Weapon-76",
-        "type": "Energy Rifle",
-        "hp": "4800",
+        "name": "Xenon Rifle",
+        "type": "Plasma",
+        "hp": 65,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-77",
-        "type": "Armor",
-        "hp": "4850",
-        "rarity": "Mythic"
+        "name": "Doom Blade",
+        "type": "Melee",
+        "hp": 60,
+        "rarity": "Epic"
     },
     {
-        "name": "Weapon-78",
-        "type": "Energy Rifle",
-        "hp": "4900",
+        "name": "Hyperflare Cannon",
+        "type": "Plasma",
+        "hp": 80,
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Shockwave Blaster",
+        "type": "Energy",
+        "hp": 45,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Radiation Gun",
+        "type": "Chemical",
+        "hp": 40,
+        "rarity": "Epic"
+    },
+    {
+        "name": "Pulse Mace",
+        "type": "Melee",
+        "hp": 25,
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Thermal Cannon",
+        "type": "Plasma",
+        "hp": 60,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Force Field Blaster",
+        "type": "Energy",
+        "hp": 50,
+        "rarity": "Epic"
+    },
+    {
+        "name": "Corrosive Gun",
+        "type": "Chemical",
+        "hp": 30,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Toxic Spike",
+        "type": "Melee",
+        "hp": 15,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-79",
-        "type": "Armor",
-        "hp": "4950",
-        "rarity": "Uncommon"
-    },
-    {
-        "name": "Weapon-80",
-        "type": "Energy Rifle",
-        "hp": "5000",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Weapon-81",
-        "type": "Armor",
-        "hp": "5050",
+        "name": "Nebula Rifle",
+        "type": "Energy",
+        "hp": 70,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-82",
-        "type": "Energy Rifle",
-        "hp": "5100",
+        "name": "Plasma Axe",
+        "type": "Melee",
+        "hp": 50,
+        "rarity": "Epic"
+    },
+    {
+        "name": "Dark Matter Cannon",
+        "type": "Energy",
+        "hp": 100,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-83",
-        "type": "Armor",
-        "hp": "5150",
-        "rarity": "Mythic"
+        "name": "Quantum Shockwave",
+        "type": "Plasma",
+        "hp": 65,
+        "rarity": "Legendary"
     },
     {
-        "name": "Weapon-84",
-        "type": "Energy Rifle",
-        "hp": "5200",
+        "name": "Void Rifle",
+        "type": "Energy",
+        "hp": 45,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ion Shock Pistol",
+        "type": "Energy",
+        "hp": 20,
         "rarity": "Common"
     },
     {
-        "name": "Weapon-85",
-        "type": "Armor",
-        "hp": "5250",
+        "name": "Graviton Blaster",
+        "type": "Energy",
+        "hp": 30,
         "rarity": "Uncommon"
     },
     {
-        "name": "Weapon-86",
-        "type": "Energy Rifle",
-        "hp": "5300",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Weapon-87",
-        "type": "Armor",
-        "hp": "5350",
+        "name": "Void Blade",
+        "type": "Melee",
+        "hp": 75,
         "rarity": "Epic"
     },
     {
-        "name": "Weapon-88",
-        "type": "Energy Rifle",
-        "hp": "5400",
+        "name": "Force Rifle",
+        "type": "Energy",
+        "hp": 65,
+        "rarity": "Rare"
+    },
+    {
+        "name": "Disruptor Shotgun",
+        "type": "Energy",
+        "hp": 45,
+        "rarity": "Epic"
+    },
+    {
+        "name": "Tritium Pistol",
+        "type": "Projectile",
+        "hp": 35,
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Hyperfusion Blaster",
+        "type": "Plasma",
+        "hp": 60,
         "rarity": "Legendary"
     },
     {
-        "name": "Weapon-89",
-        "type": "Armor",
-        "hp": "5450",
-        "rarity": "Mythic"
+        "name": "Psychotronic Blaster",
+        "type": "Energy",
+        "hp": 50,
+        "rarity": "Epic"
     },
     {
-        "name": "Weapon-90",
-        "type": "Energy Rifle",
-        "hp": "5500",
+        "name": "Gravity Rifle",
+        "type": "Energy",
+        "hp": 55,
+        "rarity": "Epic"
+    },
+    {
+        "name": "Thermal Grenade",
+        "type": "Plasma",
+        "hp": 10,
         "rarity": "Common"
-    },
-    {
-        "name": "Weapon-91",
-        "type": "Armor",
-        "hp": "5550",
-        "rarity": "Uncommon"
-    },
-    {
-        "name": "Weapon-92",
-        "type": "Energy Rifle",
-        "hp": "5600",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Weapon-93",
-        "type": "Armor",
-        "hp": "5650",
-        "rarity": "Epic"
-    },
-    {
-        "name": "Weapon-94",
-        "type": "Energy Rifle",
-        "hp": "5700",
-        "rarity": "Legendary"
-    },
-    {
-        "name": "Weapon-95",
-        "type": "Armor",
-        "hp": "5750",
-        "rarity": "Mythic"
-    },
-    {
-        "name": "Weapon-96",
-        "type": "Energy Rifle",
-        "hp": "5800",
-        "rarity": "Common"
-    },
-    {
-        "name": "Weapon-97",
-        "type": "Armor",
-        "hp": "5850",
-        "rarity": "Uncommon"
-    },
-    {
-        "name": "Weapon-98",
-        "type": "Energy Rifle",
-        "hp": "5900",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Weapon-99",
-        "type": "Armor",
-        "hp": "5950",
-        "rarity": "Epic"
-    },
-    {
-        "name": "Weapon-100",
-        "type": "Energy Rifle",
-        "hp": "6000",
-        "rarity": "Legendary"
     }
 ]

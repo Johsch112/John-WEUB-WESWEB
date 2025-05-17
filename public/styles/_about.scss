@@ -1,0 +1,33 @@
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: $mainbackground;
+
+    .about-text {
+        text-align: center;
+        font-size: 2rem;
+        color: $bluetext;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+
+        a {
+            color: $golden;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .about-image {
+        width: 100%;
+        max-width: 600px;
+        border-radius: 20px;
+        box-shadow: $standardborder;
+    }
+}

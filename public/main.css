@@ -1,3 +1,38 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ITCFont;
+}
+
+body {
+  background-color: #22242F;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+h1 {
+  color: #DFA072;
+}
+
+h2,
+h3,
+label,
+p {
+  color: #AAB2C6;
+}
+
+h4 {
+  color: #DCB970;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
 @font-face {
   font-family: ITCFont;
   src: url("../assets/font/ITCFont.otf");
@@ -10,20 +45,6 @@
   font-family: Futura;
   src: url("../assets/font/Futura.ttf");
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1, h2, h3, p, a, label, button {
-  font-family: Futura;
-}
-
-h1 {
-  color: #DFA072;
-}
-
 header nav {
   background-color: #22242F;
 }
@@ -45,36 +66,129 @@ header nav a {
   transition: all ease 0.5s;
 }
 header nav a:hover {
-  transform: scale(1.1) rotateY(360deg);
+  transform: scale(1.1);
   color: #DCB970;
 }
 
 .hero-wrapper {
-  background-color: #22242F;
+  background-image: linear-gradient(to right, #22242F, #323e82);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+#cooldesign {
+  height: 10vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #22242F, #323e82);
+}
+
+.triangles-wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.triangles-wrapper img {
+  transform-origin: center;
+  top: 50%;
+  left: 50%;
+}
+.triangles-wrapper .triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 86.6px solid red;
+  transform-origin: center center;
+  /* ≈ 50 * sqrt(3) for equilateral */
+}
+
 .spacemaker {
-  background-color: #AAB2C6;
-  height: 40vh;
+  height: 30vh;
 }
 
 .search-wrapper {
-  display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  display: flex;
 }
-.search-wrapper .searchbox {
+.search-wrapper #searcher {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.search-wrapper .searchbox input {
+.search-wrapper #searcher #search {
+  margin-top: 3rem;
+  background-color: #22242F;
   padding: 0.5rem;
   font-size: 6rem;
   text-align: center;
+  border-radius: 70px;
+  border: 3px solid #AAB2C6;
+  margin-bottom: 1rem;
+  width: 100%;
+  color: #AAB2C6;
 }
-.search-wrapper .searchbox #text {
-  font-size: 1.5rem;
-  color: #DCB970;
+.search-wrapper #searcher #vehicle,
+.search-wrapper #searcher #items,
+.search-wrapper #searcher #all {
+  font-size: 6rem;
+}
+.search-wrapper #searcher #vehiclelabel,
+.search-wrapper #searcher #alllabel,
+.search-wrapper #searcher #itemslabel {
+  font-size: 4rem;
+}
+.search-wrapper #searchdisplaybox {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  border-radius: 10px;
+  border: 3px solid #AAB2C6;
+  transition: all ease 0.5s;
+  margin-top: 3rem;
+}
+.search-wrapper #searchdisplaybox text {
+  color: #AAB2C6;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.search-wrapper #searchdisplaybox h3 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  transition: all ease 0.5s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 672px) {
+  h4 {
+    font-size: 3rem;
+  }
+  #search::-moz-placeholder {
+    font-size: 3rem;
+  }
+  #search::placeholder {
+    font-size: 3rem;
+  }
+  .searchbox input {
+    font-size: 6rem;
+  }
 }/*# sourceMappingURL=main.css.map */
