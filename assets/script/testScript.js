@@ -40,7 +40,7 @@ document.getElementById("searcher").addEventListener('input', function (event) {
                searchInput.classList.add("glow-animation");
             }
             else{
-                searchInput.classList.remove("glow-animation");
+                 searchInput.classList.remove("glow-animation");
             }
             //-----------------------------------------------------------------
 
