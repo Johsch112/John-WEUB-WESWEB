@@ -14,6 +14,19 @@
    
 
 
+<button>Vehicles</button> 
+
+<button>Items</button>
+
+
+
+
+
+
+
+<div id="cooldesign"></div>
+
+
     <?php include '../views/footer.php'; ?>
 </body>
 

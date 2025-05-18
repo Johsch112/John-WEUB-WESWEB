@@ -5,11 +5,11 @@ document.getElementById("searcher").addEventListener('input', function (event) {
     const DisplayBox = document.getElementById("searchdisplaybox");
     const searchInput = document.getElementById("search");
 
-    if (UserSearch.length >= 1) {
-        document.getElementById("jumphere").scrollIntoView({
-            behavior: 'smooth'
-        });
-    }
+    // if (UserSearch.length >= 1) {
+    //     document.getElementById("jumphere").scrollIntoView({
+    //         behavior: 'smooth'
+    //     });
+    // }
     console.log(UserSearch);
     console.log(UserCategory);
 
@@ -23,24 +23,35 @@ document.getElementById("searcher").addEventListener('input', function (event) {
             //----------------------------------------------------------------
 
             if (UserCategory === "vehicles" && UserSearch.length >= 3) {
-                const Vehiclemanu = dataToTEXT.map(item => item.Manufuacturer);
-                DisplayBox.innerHTML = "<h4>" + Vehiclemanu + "</h4>" + "<br>";
+                const Vehiclemanu = dataToTEXT.map(item =>
+                    `<h4>${item.Manufuacturer} ${item.Model} ${item.HP}HP - ${item.Rarity}</h4>`
+                ).join("<br>");
 
+                DisplayBox.innerHTML = Vehiclemanu;
                 searchInput.classList.add("glow-animation");
             }
             //-----------------------------------------------------------------
-            else if (UserCategory === "items" && UserSearch.length >= 3) {
-                const itemNAMES = dataToTEXT.map(item => item.Name);
-                DisplayBox.innerHTML = "<h4>" + itemNAMES + "</h4>" + "<br>";
 
+            else if (UserCategory === "items" && UserSearch.length >= 3) {
+                const itemNAMES = dataToTEXT.map(item =>
+                    `<h4>${item.Name} ${item.Type} ${item.HP}HP - ${item.Rarity}</h4>`
+                ).join("<br>");
+
+                DisplayBox.innerHTML = itemNAMES;
                 searchInput.classList.add("glow-animation");
             }
             //-----------------------------------------------------------------
             else if (UserCategory === "all" && UserSearch.length >= 3) {
-                const itemNAMES = dataToTEXT.filter(item => item.Name !== undefined).map(item => item.Name);
-                const Vehiclemanu = dataToTEXT.filter(item => item.Manufuacturer !== undefined).map(item => item.Manufuacturer);
-                DisplayBox.innerHTML = "<h4>" + "ITEMS" + "</h4>" + "<h4>" + itemNAMES + "</h4>" + "<br>" + "<h4>" + "VEHICLES" + "</h4>" + "<h4>" + Vehiclemanu + "</h4>" + "<br>" + "<br>";
+                const itemNAMES = dataToTEXT.filter(item => item.Name !== undefined).map(item =>
+                    `<h4>${item.Name} ${item.Type} ${item.HP}HP - ${item.Rarity}</h4>`
+                ).join("<br>");
 
+
+                const Vehiclemanu = dataToTEXT.filter(item => item.Manufuacturer !== undefined).map(item =>
+                    `<h4>${item.Manufuacturer} ${item.Model} ${item.HP}HP - ${item.Rarity}</h4>`
+                ).join("<br>");
+
+                DisplayBox.innerHTML = itemNAMES + "<br>" + Vehiclemanu;
                 searchInput.classList.add("glow-animation");
             }
             else {
@@ -55,11 +66,14 @@ document.getElementById("searcher").addEventListener('input', function (event) {
             else if (dataToTEXT.length == 0) {
                 DisplayBox.classList.add("nomatch")
                 DisplayBox.style.display = "flex";
-                DisplayBox.innerHTML = "<h4><style>h4{color:red;}</style>No matches found<h4>";
+                // DisplayBox.innerHTML = "<h4><style>h4{color:red;}</style>No matches found<h4>";
+                DisplayBox.innerHTML = "<h4>No matches found<h4>";
+                searchInput.classList.add("nomatch");
             }
             else {
                 DisplayBox.style.display = "flex";
-                DisplayBox.classList.remove("nomatch")
+                DisplayBox.classList.remove("nomatch");
+                searchInput.classList.remove("nomatch");
             }
         })
 });

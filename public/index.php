@@ -10,26 +10,11 @@
 </head>
 
 <body>
-    <?php
-    // $_ENV = parse_ini_file('../.env');
-    // $host = $_ENV['DB_HOST'];
-    // $port = $_ENV['DB_PORT'];
-    // $database = $_ENV['DB_DATABASE'];
-    // $username = $_ENV['DB_USERNAME'];
-    // $password = $_ENV['DB_PASSWORD'];
-    
-    // $conn = new mysqli($host, $username, $password, $database);
-    ?>
     <?php include '../views/header.php'; ?>
 
     <div class="hero-wrapper">
         <div class="hero"><img src="../assets/img/transparentbigger.png" alt=""></div>
-        <!-- <h1>Find anything.</h1> -->
     </div>
-
-
-
-
     <!-- <div class="triangles-wrapper">
         <div class="triangle tri1"></div>
     </div>  Hidden for clarity -->
@@ -47,7 +32,7 @@
             <input type="text" id="search" name="q" placeholder="Type to search" data-search>
         </form>
         <div id="searchdisplaybox"></div>
-        <div id="jumphere"></div>
+        <!-- <div id="jumphere"></div> -->
     </div>
     <div class="spacemaker"></div>
     <div id="cooldesign"></div>

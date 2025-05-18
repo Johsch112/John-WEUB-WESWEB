@@ -11,7 +11,7 @@ $conn = new mysqli($host, $username, $password, $database);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 } else {
-  echo "<h2>" . "Connected successfully! Schblagga scblaggha bom bom bom" . "</h2>";
+  echo "<h2>" . "Connected" . "</h2>";
 }
 ?>
 
@@ -20,15 +20,12 @@ if ($conn->connect_error) {
 // Read the JSON file
 $json = file_get_contents('./assets/json/spaceships.json'); 
 
-// Check if the file was read successfully
 if ($json === false) {
     die('Error reading the JSON file');
 }
 
-// Decode the JSON file
 $json_data = json_decode($json, true); 
 
-// Check if the JSON was decoded successfully
 if ($json_data === null) {
     die('Error decoding the JSON file');
 }
