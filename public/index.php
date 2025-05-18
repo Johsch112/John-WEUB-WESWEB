@@ -36,10 +36,8 @@
 
     <div class="search-wrapper">
 
-<div id="cooldesign"></div>
-
         <form id="searcher" method="get">
-            <input type="text" id="search" name="q" placeholder="Search" data-search>
+            <input type="text" id="search" name="q" placeholder="Type to search" data-search>
             <label id="vehiclelabel" for="vehicle">Vehicles</label>
             <input type="radio" name="type" value="vehicles" id="vehicle">
             <label id="itemslabel" for="items">Items</label>
@@ -50,11 +48,9 @@
 
         </form>
         <div id="searchdisplaybox"></div>
-
-
-
     </div>
     <div class="spacemaker"></div>
+    <div id="cooldesign"></div>
     <?php include '../views/footer.php'; ?>
     <!-- <script src="../assets/script/script.js"></script> -->
     <script src="../assets/script/testScript.js"></script>

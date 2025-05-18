@@ -23,7 +23,9 @@ h1 {
 h2,
 h3,
 label,
-p {
+p,
+text,
+input {
   color: #AAB2C6;
 }
 
@@ -126,10 +128,49 @@ header nav a:hover {
   font-size: 6rem;
   text-align: center;
   border-radius: 70px;
-  border: 3px solid #AAB2C6;
+  border: 4px solid #AAB2C6;
   margin-bottom: 1rem;
   width: 100%;
   color: #AAB2C6;
+  transition: all 0.4s;
+}
+.search-wrapper #searcher .glow-animation {
+  animation: glow 0.7s forwards infinite;
+}
+.search-wrapper #searcher #search:focus {
+  border: 4px solid #b7c6ee;
+  outline: none;
+  box-shadow: none;
+  /* Optional: removes any other focus styles */
+}
+.search-wrapper #searcher #search:hover {
+  border: 4px solid #d0daf4;
+}
+@keyframes glow {
+  25% {
+    border-right-color: cyan;
+    border-bottom-color: #AAB2C6;
+    border-left-color: #AAB2C6;
+    border-top-color: #AAB2C6;
+  }
+  50% {
+    border-bottom-color: cyan;
+    border-right-color: #AAB2C6;
+    border-left-color: #AAB2C6;
+    border-top-color: #AAB2C6;
+  }
+  75% {
+    border-left-color: cyan;
+    border-right-color: #AAB2C6;
+    border-bottom-color: #AAB2C6;
+    border-top-color: #AAB2C6;
+  }
+  100% {
+    border-top-color: cyan;
+    border-right-color: #AAB2C6;
+    border-bottom-color: #AAB2C6;
+    border-left-color: #AAB2C6;
+  }
 }
 .search-wrapper #searcher #vehicle,
 .search-wrapper #searcher #items,
@@ -148,9 +189,12 @@ header nav a:hover {
   align-items: center;
   width: 50%;
   border-radius: 10px;
-  border: 3px solid #AAB2C6;
+  border: 4px solid #AAB2C6;
   transition: all ease 0.5s;
   margin-top: 3rem;
+}
+.search-wrapper #searchdisplaybox.nomatch {
+  border: 4px solid red;
 }
 .search-wrapper #searchdisplaybox text {
   color: #AAB2C6;
