@@ -24,7 +24,9 @@ h1 {
 h2,
 h3,
 label,
-p {
+p,
+text,
+input {
     color: $bluetext;
 }
 
@@ -88,12 +90,11 @@ header {
     align-items: center;
 }
 
-#cooldesign{
+#cooldesign {
     height: 10vh;
     width: 100%;
     background-image: linear-gradient(to right, #22242F, #323e82);
 }
-
 
 
 .triangles-wrapper {
@@ -125,9 +126,10 @@ header {
 }
 
 .search-wrapper {
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     #searcher {
         display: flex;
         flex-direction: column;
@@ -146,6 +148,52 @@ align-items: center;
             margin-bottom: 1rem;
             width: 100%;
             color: $bluetext;
+            transition: all 0.4s;
+        }
+
+        .glow-animation {
+            animation: glow 0.7s forwards infinite;
+        }
+
+        #search:focus {
+            border: 4px solid #b7c6ee;
+            outline: none;
+            box-shadow: none;
+            /* Optional: removes any other focus styles */
+        }
+
+        #search:hover {
+            border: 4px solid #d0daf4;
+        }
+
+        @keyframes glow {
+            25% {
+                border-right-color: cyan;
+                border-bottom-color: $bluetext;
+                border-left-color: $bluetext;
+                border-top-color: $bluetext;
+            }
+
+            50% {
+                border-bottom-color: cyan;
+                border-right-color: $bluetext;
+                border-left-color: $bluetext;
+                border-top-color: $bluetext;
+            }
+
+            75% {
+                border-left-color: cyan;
+                border-right-color: $bluetext;
+                border-bottom-color: $bluetext;
+                border-top-color: $bluetext;
+            }
+
+            100% {
+                border-top-color: cyan;
+                border-right-color: $bluetext;
+                border-bottom-color: $bluetext;
+                border-left-color: $bluetext;
+            }
         }
 
         //Style for the knobs
@@ -177,6 +225,10 @@ align-items: center;
         transition: all ease 0.5s;
         margin-top: 3rem;
 
+        &.nomatch {
+            border: 4px solid red;
+        }
+
         text {
             color: $bluetext;
             font-size: 2rem;
@@ -191,6 +243,7 @@ align-items: center;
         }
     }
 }
+
 
 footer {
     display: flex;
@@ -215,8 +268,11 @@ footer {
         font-size: 3rem;
     }
 
-    #search {&::placeholder {font-size: 3rem;}
-}
+    #search {
+        &::placeholder {
+            font-size: 3rem;
+        }
+    }
 
     .searchbox {
         input {
