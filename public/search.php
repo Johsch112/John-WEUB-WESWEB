@@ -18,7 +18,12 @@ $myArray = [];
 
 if ($_GET['type'] == 'vehicles') {
     $q = $_GET['q'] ?? '';
-    $result = mysqli_query($conn, "SELECT * FROM vehicles WHERE Manufuacturer LIKE '%" . $conn->real_escape_string($q) . "%'");
+    //Protection against SQL injections
+    $stmt = $conn->prepare("SELECT * FROM vehicles WHERE Manufuacturer LIKE CONCAT('%', ?, '%')");
+    $stmt->bind_param("s", $q);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
     if ($result) {
         while ($row = $result->fetch_assoc()) {
             $myArray[] = $row;
@@ -27,10 +32,15 @@ if ($_GET['type'] == 'vehicles') {
     echo json_encode($myArray);
     exit;
 }
-
+//-----------------------------------------------------------------------
 if ($_GET['type'] == 'items') {
     $q = $_GET['q'] ?? '';
-    $result = mysqli_query($conn, "SELECT * FROM items WHERE Name LIKE '%" . $conn->real_escape_string($q) . "%'");
+    //Protection against SQL injections
+    $stmt = $conn->prepare("SELECT * FROM items WHERE Name LIKE CONCAT('%', ?, '%')");
+    $stmt->bind_param("s", $q);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
     if ($result) {
         while ($row = $result->fetch_assoc()) {
             $myArray[] = $row;
@@ -39,17 +49,24 @@ if ($_GET['type'] == 'items') {
     echo json_encode($myArray);
     exit;
 }
-
-    if ($_GET['type'] == 'all') {
+//-----------------------------------------------------------------------
+if ($_GET['type'] == 'all') {
     $q = $_GET['q'] ?? '';
-    $result = mysqli_query($conn, "SELECT * FROM items WHERE Name LIKE '%" . $conn->real_escape_string($q) . "%'");
+
+    $stmt = $conn->prepare("SELECT * FROM items WHERE Name LIKE CONCAT('%', ?, '%')");
+    $stmt->bind_param("s", $q);
+    $stmt->execute();
+    $result = $stmt->get_result();
     if ($result) {
         while ($row = $result->fetch_assoc()) {
             $myArray[] = $row;
         }
     }
 
-    $result2 = mysqli_query($conn, "SELECT * FROM vehicles WHERE Manufuacturer LIKE '%" . $conn->real_escape_string($q) . "%'");
+    $stmt = $conn->prepare("SELECT * FROM vehicles WHERE Manufuacturer LIKE CONCAT('%', ?, '%')");
+    $stmt->bind_param("s", $q);
+    $stmt->execute();
+    $result2 = $stmt->get_result();
     if ($result2) {
         while ($row = $result2->fetch_assoc()) {
             $myArray[] = $row;
@@ -59,36 +76,7 @@ if ($_GET['type'] == 'items') {
     exit;
 }
 
-
 echo json_encode(["error" => "No valid query parameters (vehicles/items) set."]);
 
-
-
-// if (isset($_GET['vehicles'])) {
-//     $q = $_GET['q'];
-//     $result = mysqli_query($conn, "SELECT * FROM vehicles WHERE Manufuacturer LIKE '%" . $q . "%'");
-// } 
-// else {
-//     $result = mysqli_query($conn, "SELECT * FROM `vehicles`");
-// }
-
-
-// if (isset($_GET['items'])) {
-//     $q = $_GET['q'];
-//     $result = mysqli_query($conn, "SELECT * FROM items WHERE Name LIKE '%" . $q . "%'");
-// } else {
-//     $result = mysqli_query($conn, "SELECT * FROM `items`");
-// }
-
-// $myArray = [];
-// if ($result) {
-//     while ($row = $result->fetch_assoc()) {
-//         $myArray[] = $row;
-//     }
-//     echo json_encode($myArray);
-// } else {
-//     echo "Error: " . mysqli_error($conn);
-// }
 $conn->close();
 ?>
-        

@@ -17,7 +17,7 @@
     // $database = $_ENV['DB_DATABASE'];
     // $username = $_ENV['DB_USERNAME'];
     // $password = $_ENV['DB_PASSWORD'];
-
+    
     // $conn = new mysqli($host, $username, $password, $database);
     ?>
     <?php include '../views/header.php'; ?>
@@ -37,7 +37,6 @@
     <div class="search-wrapper">
 
         <form id="searcher" method="get">
-            <input type="text" id="search" name="q" placeholder="Type to search" data-search>
             <label id="vehiclelabel" for="vehicle">Vehicles</label>
             <input type="radio" name="type" value="vehicles" id="vehicle">
             <label id="itemslabel" for="items">Items</label>
@@ -45,9 +44,10 @@
             <label id="alllabel" for="all">All</label>
             <input type="radio" name="type" value="all" id="all">
 
-
+            <input type="text" id="search" name="q" placeholder="Type to search" data-search>
         </form>
         <div id="searchdisplaybox"></div>
+        <div id="jumphere"></div>
     </div>
     <div class="spacemaker"></div>
     <div id="cooldesign"></div>
