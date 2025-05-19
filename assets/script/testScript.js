@@ -6,9 +6,7 @@ document.getElementById("searcher").addEventListener('input', function (event) {
     const searchInput = document.getElementById("search");
 
     // if (UserSearch.length >= 1) {
-    //     document.getElementById("jumphere").scrollIntoView({
-    //         behavior: 'smooth'
-    //     });
+
     // }
     console.log(UserSearch);
     console.log(UserCategory);
@@ -27,8 +25,11 @@ document.getElementById("searcher").addEventListener('input', function (event) {
                     `<h4>${item.Manufuacturer} ${item.Model} ${item.HP}HP - ${item.Rarity}</h4>`
                 ).join("<br>");
 
-                DisplayBox.innerHTML = Vehiclemanu;
+                DisplayBox.innerHTML = "<h4>Vehicles</h4>" + Vehiclemanu;
                 searchInput.classList.add("glow-animation");
+                document.getElementById("search").scrollIntoView({
+                    behavior: 'smooth'
+                });
             }
             //-----------------------------------------------------------------
 
@@ -37,8 +38,11 @@ document.getElementById("searcher").addEventListener('input', function (event) {
                     `<h4>${item.Name} ${item.Type} ${item.HP}HP - ${item.Rarity}</h4>`
                 ).join("<br>");
 
-                DisplayBox.innerHTML = itemNAMES;
+                DisplayBox.innerHTML = "<h4>Items</h4>" + itemNAMES;
                 searchInput.classList.add("glow-animation");
+                document.getElementById("search").scrollIntoView({
+                    behavior: 'smooth'
+                });
             }
             //-----------------------------------------------------------------
             else if (UserCategory === "all" && UserSearch.length >= 3) {
@@ -51,8 +55,11 @@ document.getElementById("searcher").addEventListener('input', function (event) {
                     `<h4>${item.Manufuacturer} ${item.Model} ${item.HP}HP - ${item.Rarity}</h4>`
                 ).join("<br>");
 
-                DisplayBox.innerHTML = itemNAMES + "<br>" + Vehiclemanu;
+                DisplayBox.innerHTML = "<h4>Items</h4>" + itemNAMES + "<h4>Vehicles</h4>" + Vehiclemanu;
                 searchInput.classList.add("glow-animation");
+                document.getElementById("search").scrollIntoView({
+                    behavior: 'smooth'
+                });
             }
             else {
                 searchInput.classList.remove("glow-animation");
@@ -66,7 +73,6 @@ document.getElementById("searcher").addEventListener('input', function (event) {
             else if (dataToTEXT.length == 0) {
                 DisplayBox.classList.add("nomatch")
                 DisplayBox.style.display = "flex";
-                // DisplayBox.innerHTML = "<h4><style>h4{color:red;}</style>No matches found<h4>";
                 DisplayBox.innerHTML = "<h4>No matches found<h4>";
                 searchInput.classList.add("nomatch");
             }

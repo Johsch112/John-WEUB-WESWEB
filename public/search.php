@@ -19,8 +19,8 @@ $myArray = [];
 if ($_GET['type'] == 'vehicles') {
     $q = $_GET['q'] ?? '';
     //Protection against SQL injections
-    $stmt = $conn->prepare("SELECT * FROM vehicles WHERE Manufuacturer LIKE CONCAT('%', ?, '%')");
-    $stmt->bind_param("s", $q);
+    $stmt = $conn->prepare("SELECT * FROM vehicles WHERE Manufuacturer LIKE CONCAT('%', ?, '%') OR Model LIKE CONCAT('%', ?, '%')");
+    $stmt->bind_param("ss", $q, $q);
     $stmt->execute();
     $result = $stmt->get_result();
 
@@ -35,9 +35,9 @@ if ($_GET['type'] == 'vehicles') {
 //-----------------------------------------------------------------------
 if ($_GET['type'] == 'items') {
     $q = $_GET['q'] ?? '';
-    //Protection against SQL injections
-    $stmt = $conn->prepare("SELECT * FROM items WHERE Name LIKE CONCAT('%', ?, '%')");
-    $stmt->bind_param("s", $q);
+    //Protection against SQL injjections
+    $stmt = $conn->prepare("SELECT * FROM items WHERE Name LIKE CONCAT('%', ?, '%') OR Type LIKE CONCAT('%', ?, '%')");
+    $stmt->bind_param("ss", $q, $q);
     $stmt->execute();
     $result = $stmt->get_result();
 
@@ -52,9 +52,9 @@ if ($_GET['type'] == 'items') {
 //-----------------------------------------------------------------------
 if ($_GET['type'] == 'all') {
     $q = $_GET['q'] ?? '';
-
-    $stmt = $conn->prepare("SELECT * FROM items WHERE Name LIKE CONCAT('%', ?, '%')");
-    $stmt->bind_param("s", $q);
+    //Protection against SQL injections
+    $stmt = $conn->prepare("SELECT * FROM items WHERE Name LIKE CONCAT('%', ?, '%') OR Type LIKE CONCAT('%', ?, '%')");
+    $stmt->bind_param("ss", $q,$q);
     $stmt->execute();
     $result = $stmt->get_result();
     if ($result) {
@@ -63,8 +63,8 @@ if ($_GET['type'] == 'all') {
         }
     }
 
-    $stmt = $conn->prepare("SELECT * FROM vehicles WHERE Manufuacturer LIKE CONCAT('%', ?, '%')");
-    $stmt->bind_param("s", $q);
+    $stmt = $conn->prepare("SELECT * FROM vehicles WHERE Manufuacturer LIKE CONCAT('%', ?, '%') OR Model LIKE CONCAT('%', ?, '%')");
+    $stmt->bind_param("ss", $q,$q);
     $stmt->execute();
     $result2 = $stmt->get_result();
     if ($result2) {

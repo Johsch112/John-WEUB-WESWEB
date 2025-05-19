@@ -32,7 +32,7 @@
             <input type="text" id="search" name="q" placeholder="Type to search" data-search>
         </form>
         <div id="searchdisplaybox"></div>
-        <!-- <div id="jumphere"></div> -->
+        <div id="jumphere"></div>
     </div>
     <div class="spacemaker"></div>
     <div id="cooldesign"></div>
